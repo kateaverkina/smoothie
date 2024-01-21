@@ -1,0 +1,458 @@
+/*1440 - 1919*/
+
+@media screen and (max-width: 1919px) {
+    .main-img img {
+        width: 650px;
+    }
+
+    .main-img {
+        top: -100px;
+        right: -300px;
+    }
+}
+
+/* 1024 - 1229 */
+@media screen and (max-width: 1229px) {
+    .main-section {
+        overflow: visible;
+    }
+
+    .header .logo {
+        left: 20px;
+    }
+
+    .raspberry {
+        width: 150px;
+        top: -90px;
+        left: 25px;
+    }
+
+    .raspberry-shadow {
+        width: 102px;
+        height: 400px;
+    }
+
+    .main-title {
+        align-self: flex-end;
+    }
+
+    .main-img img {
+       width: 450px;
+    }
+
+    .main-img {
+        top: 400px;
+        right: 20px;
+    }
+
+    .advantages .container {
+        position: relative;
+    }
+
+
+    .advantages {
+        grid-template-columns: 1fr;
+        padding-left: 400px;
+    }
+
+    .advantages-img {
+        bottom: 50px;
+        left: 50px;
+    }
+
+    .avocado-shadow {
+        bottom: 70px;
+        left: 100px;
+    }
+
+    .smoothies .container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .smoothies-title {
+        grid-column: 1 / 3;
+    }
+
+    .order-form {
+        top: 180px;
+        left: 60px;
+    }
+
+    .order-shadow {
+        height: 350px;
+        width: 300px;
+        bottom: -10px;
+    }
+
+    .order-form input {
+        padding: 15px 0 15px 20px;
+    }
+
+    .order-btn {
+        padding: 15px 0;
+        font-size: 16px;
+    }
+}
+
+/* 768 - 1023 */
+@media screen and (max-width: 1023px) {
+    .raspberry {
+        transform: scale(-1, 1);
+        top: -150px;
+        left: 640px;
+        width: 100px;
+    }
+
+    .raspberry-shadow {
+        top: -150px;
+        left: 640px;
+        height: 300px;
+    }
+
+    .main {
+        padding-bottom: 100px;
+    }
+
+    .main .container {
+        align-items: flex-start;
+    }
+
+    .main-title {
+        font-size: 55px;
+        align-self: flex-start;
+    }
+
+    .main-title span {
+        font-size: 70px;
+    }
+
+    .main-description {
+        max-width: 400px;
+    }
+
+    .main-img img {
+        width: 350px;
+    }
+
+    .main-img {
+        top: 200px;
+    }
+
+    .advantages-section {
+        padding-bottom: 100px;
+    }
+
+    .advantages {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 0;
+    }
+
+    .advantages-title {
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .advantages-title span {
+        padding-left: 0;
+    }
+
+    .advantages-description {
+        padding-left: 0;
+    }
+
+    .advantages-img {
+        display: none;
+    }
+
+    .avocado-shadow {
+        display: none;
+    }
+
+    .smoothie-img img {
+        width: 350px;
+    }
+
+    .order-title {
+        font-size: 55px;
+    }
+
+    .order-image {
+        display: none;
+    }
+
+    .order-shadow {
+        display: none;
+    }
+
+    .order-img-avocado {
+        display: block;
+        width: 200px;
+    }
+
+    .order-img-avocado img {
+        max-width: 100%;
+    }
+
+    .order-avocado-shadow {
+        display: block;
+    }
+
+    .order-form {
+        position: static;
+    }
+
+    .order-form-all {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .order-avocado-shadow {
+        position: absolute;
+        width: 181px;
+        height: 250px;
+        transform: rotate(-19.201deg);
+        flex-shrink: 0;
+        border-radius: 413px;
+        opacity: 0.15;
+        background: #C1C1C1;
+        filter: blur(30px);
+        bottom: 40px;
+        right: 190px;
+        z-index: -1;
+    }
+
+    .order-success {
+        font-size: 55px;
+    }
+
+    .footer {
+        padding: 50px 0;
+    }
+}
+
+/* 425 - 767 */
+@media screen and (max-width: 767px) {
+    .header {
+        padding-bottom: 50px;
+    }
+
+    .header .logo {
+        position: static;
+        padding-bottom: 20px;
+    }
+
+    .header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main {
+        padding-bottom: 50px;
+    }
+
+    .main .container {
+        align-items: center;
+    }
+
+    .main-title {
+        font-size: 35px;
+        text-align: center;
+        align-self: center;
+        width: 320px;
+    }
+
+    .main-title span {
+        font-size: 50px;
+    }
+
+    .main-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-description {
+        text-align: center;
+        margin-bottom: 30px;
+        width: 320px;
+    }
+
+    .main-btn {
+        align-self: center;
+    }
+
+    .main-img {
+        position: static;
+        margin-top: 30px;
+    }
+
+    .main-img img {
+        width: 290px;
+    }
+
+    .advantages-section {
+        padding-bottom: 70px;
+    }
+
+    .advantages-section .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages {
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+    }
+
+    .advantages-title {
+        font-size: 35px;
+    }
+
+    .advantages-description {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .smoothies {
+        padding-bottom: 70px;
+    }
+
+    .smoothies .container {
+        grid-template-columns: 1fr;
+        grid-row-gap: 30px;
+    }
+
+    .smoothies-title {
+        grid-column: 1 / 2;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .order-title {
+        font-size: 35px;
+    }
+
+    .order-description {
+        font-size: 16px;
+    }
+
+    .order-avocado-shadow {
+        right: 140px;
+
+    }
+
+    .order-success {
+        font-size: 35px;
+    }
+
+
+    .rights {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .raspberry {
+        display: none;
+    }
+
+    .raspberry-shadow {
+        display: none;
+    }
+}
+
+/* 320 - 374 */
+@media screen and (max-width: 374px) {
+    .header .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .menu {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        right: 0;
+        background: rgba(49, 48, 48, 0.9);
+        z-index: 5;
+        display: none;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+
+    .menu-item {
+        margin: 15px 0;
+    }
+
+    .menu ul li a {
+        font-size: 25px;
+        color: white;
+    }
+
+    .burger {
+        display: block;
+        fill: #ADFF00;
+    }
+
+    .menu.open {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu {
+        .close {
+            display: block;
+            width: 24px;
+            height: 24px;
+            fill: white;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+    }
+
+    .advantage-title {
+        font-size: 18px;
+    }
+
+    .advantages-description {
+        font-size: 16px;
+    }
+
+
+    .smoothie-img img {
+        width: 290px;
+    }
+
+    .order-img-avocado {
+        display: none;
+    }
+
+    .order-avocado-shadow {
+        right: 80px;
+        bottom: 0;
+    }
+
+    .footer .container {
+        flex-direction: column;
+    }
+
+    .rights {
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
