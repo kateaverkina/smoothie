@@ -92,7 +92,7 @@ $(document).ready(function () {
             loaderOpen();
             $.ajax({
                 method: "POST",
-                url: "sendMail.php",
+                url: "https://testologia.site/checkout",
                 data: {name: name.val(), phone: phone.val(), bowl: smoothieName.val()}
             })
                 .done(function (msg) {
